@@ -1,22 +1,16 @@
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\MyCalendarView.Droid.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\Lunar.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\Mono.Android.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\mscorlib.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\MyCalendarView.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\Newtonsoft.Json.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Core.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Xml.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\Xamarin.Android.Support.v4.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Diagnostics.Tracing.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Reflection.Emit.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Reflection.Emit.ILGeneration.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Reflection.Emit.Lightweight.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.ServiceModel.Security.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Threading.Timer.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Runtime.Serialization.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.ServiceModel.Internals.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Numerics.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Xml.Linq.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Data.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.ServiceModel.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\MyCalendarView.Droid.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\Java.Interop.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\Mono.Android.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Core.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Xml.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\Lunar.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\mscorlib.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\MyCalendarView.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\Newtonsoft.Json.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\Xamarin.Android.Support.v4.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Runtime.Serialization.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.ServiceModel.Internals.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Numerics.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Xml.Linq.dll
+E:\Learning\Xamarin\LichCaoDai\MyCalendarView\MyCalendarView.Droid\obj\Release\android\assets\System.Data.dll

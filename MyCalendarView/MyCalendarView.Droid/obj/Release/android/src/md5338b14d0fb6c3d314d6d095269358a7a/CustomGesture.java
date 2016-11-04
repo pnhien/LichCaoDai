@@ -7,7 +7,8 @@ public class CustomGesture
 		mono.android.IGCUserPeer,
 		android.view.View.OnTouchListener
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onFling:(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z:GetOnFling_Landroid_view_MotionEvent_Landroid_view_MotionEvent_FFHandler\n" +
@@ -47,7 +48,7 @@ public class CustomGesture
 
 	private native boolean n_onTouch (android.view.View p0, android.view.MotionEvent p1);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)
