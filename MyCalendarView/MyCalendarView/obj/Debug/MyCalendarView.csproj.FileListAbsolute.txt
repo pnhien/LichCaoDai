@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView\bin\Debug\MyCalendarView.dll
+c:\users\administrator\documents\visual studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView\bin\Debug\MyCalendarView.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView\obj\Debug\MyCalendarView.dll
+c:\users\administrator\documents\visual studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView\obj\Debug\MyCalendarView.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\MyCalendarView\MyCalendarView\MyCalendarView\obj\Debug\MyCalendarView.csprojResolveAssemblyReference.cache

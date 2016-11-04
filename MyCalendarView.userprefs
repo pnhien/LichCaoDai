@@ -1,0 +1,9 @@
+﻿<Properties StartupItem="MyCalendarView\MyCalendarView.Droid\MyCalendarView.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.ItemProperties.MyCalendarView.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 4 (Jelly Bean)" />
+</Properties>

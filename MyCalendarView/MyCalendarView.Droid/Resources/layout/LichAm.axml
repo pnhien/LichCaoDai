@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:showDividers="none">
+    <TextView
+        android:text="Tháng"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvThang"
+        android:gravity="center" />
+    <TextView
+        android:text="15"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvNgay"
+        android:textStyle="bold"
+        android:paddingTop="1dp"
+        android:textSize="70dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Thứ Tư"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:id="@+id/tvThu"
+        android:gravity="center" />
+    <TextView
+        android:text="Ngày 18 - Tháng 6 - Ất Mùi"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvNgayAL"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:gravity="center" />
+    <TextView
+        android:text="Tháng đủ"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvThangDu"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:id="@+id/imgHinh" />
+    <TextView
+        android:text="Kỷ niệm ngày thành lập"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvSuKien"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/holo_blue_light" />
+    <TextView
+        android:text="Muốn nên Tiên, vô vi thanh tịnh"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvThanhNgon"
+        android:gravity="center"
+        android:paddingTop="10dp" />
+    <TextView
+        android:text="Nguồn"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNguon"
+        android:gravity="right"
+        android:paddingTop="20dp"
+        android:textStyle="italic"
+        android:paddingRight="5dp"
+        android:layout_marginRight="20.0dp"
+        android:layout_gravity="right" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1">
+        <Button
+            android:text="Lịch Ngày"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnLichNgay" />
+        <Button
+            android:text="Lịch Tháng"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnLichThang" />
+        <Button
+            android:text="Đổi Ngày"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnDoiNgay" />
+        <Button
+            android:text="Tiện Ích"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnTienIch" />
+    </LinearLayout>
+</LinearLayout>

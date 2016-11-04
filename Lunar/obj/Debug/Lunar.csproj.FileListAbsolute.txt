@@ -1,0 +1,4 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\Lunar\bin\Debug\Lunar.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\Lunar\bin\Debug\Lunar.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\Lunar\obj\Debug\Lunar.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MyCalendarView\Lunar\obj\Debug\Lunar.pdb
