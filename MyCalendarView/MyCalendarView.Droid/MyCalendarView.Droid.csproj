@@ -25,19 +25,16 @@
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
     <ConsolePause>false</ConsolePause>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkSkip />
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
-    <BundleAssemblies>False</BundleAssemblies>
     <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
     <AndroidSupportedAbis>
     </AndroidSupportedAbis>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
     <Debugger>Xamarin</Debugger>
-    <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -48,19 +45,13 @@
     <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
     <ConsolePause>false</ConsolePause>
     <AndroidLinkSkip />
-    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
-    <BundleAssemblies>False</BundleAssemblies>
     <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
     <AndroidSupportedAbis>
     </AndroidSupportedAbis>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
     <Debugger>Xamarin</Debugger>
-    <AotAssemblies>False</AotAssemblies>
-    <EnableLLVM>False</EnableLLVM>
-    <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
-    <EnableProguard>False</EnableProguard>
     <DebugSymbols>False</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
@@ -76,7 +67,7 @@
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
     <Reference Include="Xamarin.Android.Support.v4">
-      <HintPath>..\..\packages\Xamarin.Android.Support.v4.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+      <HintPath>..\..\packages\Xamarin.Android.Support.v4.23.2.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

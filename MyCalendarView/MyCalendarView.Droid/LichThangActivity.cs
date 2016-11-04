@@ -24,6 +24,7 @@ namespace MyCalendarView.Droid
         private DateTime currentDateTime;
         private CustomGesture gestureListener;
         List<SuKien>  lEvents = new List<SuKien>();
+		TextView txtSuKien;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -32,6 +33,7 @@ namespace MyCalendarView.Droid
             currentDateTime = DateTime.Now;
             SetContentView(Resource.Layout.LichThang);
             gv = FindViewById<GridView>(Resource.Id.gridview);
+			txtSuKien = FindViewById<TextView>(Resource.Id.txtLichThang_TenSuKien);
             lEvents = JsonConvert.DeserializeObject<List<SuKien>>(Intent.GetStringExtra("ListSuKien"));
             gestureListener = new CustomGesture(this);
             gv.SetOnTouchListener(gestureListener);
@@ -54,7 +56,14 @@ namespace MyCalendarView.Droid
 
         private void GridviewOnItemClick(object sender, AdapterView.ItemClickEventArgs itemClickEventArgs)
         {
-            Toast.MakeText(this, itemClickEventArgs.Position.ToString(), ToastLength.Short).Show();
+			SuKien sk = haveSuKien(lItems[itemClickEventArgs.Position].lunarDate, lItems[itemClickEventArgs.Position].curDate);
+			if (sk != null)
+			{
+				txtSuKien.Text = sk.TenSuKien;
+			}
+			else {
+				txtSuKien.Text = "";
+			}
         }
 
         private JavaList<GridItem> getDatesOfMonth(int month, int year)
@@ -79,13 +88,13 @@ namespace MyCalendarView.Droid
                 lastSunday = lastDayOfMonth.AddDays(7 - delta);
             }
 
-            lItems.Add(new GridItem("Hai", "", false, true));
-            lItems.Add(new GridItem("Ba", "", false, true));
-            lItems.Add(new GridItem("Tư", "", false, true));
-            lItems.Add(new GridItem("Năm", "", false, true));
-            lItems.Add(new GridItem("Sáu", "", false, true));
-            lItems.Add(new GridItem("Bảy", "", false, true));
-            lItems.Add(new GridItem("C.N", "", false, true));
+            lItems.Add(new GridItem("Hai", false, true));
+            lItems.Add(new GridItem("Ba", false, true));
+            lItems.Add(new GridItem("Tư", false, true));
+            lItems.Add(new GridItem("Năm", false, true));
+            lItems.Add(new GridItem("Sáu", false, true));
+            lItems.Add(new GridItem("Bảy", false, true));
+            lItems.Add(new GridItem("C.N", false, true));
 
 
             for (int i = 0; i <= (lastSunday - firstMonday).Days; i++)
@@ -101,7 +110,7 @@ namespace MyCalendarView.Droid
                 {
                     isHaveEvt = true;
                 }
-                lItems.Add(new GridItem(d, info.dLunarDate.dDay.ToString(), isDiff,false,isHaveEvt));
+                lItems.Add(new GridItem(d, info, isDiff,false,isHaveEvt));
             }
             return lItems;
         }

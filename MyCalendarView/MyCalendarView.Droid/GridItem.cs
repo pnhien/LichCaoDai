@@ -20,26 +20,42 @@ namespace MyCalendarView.Droid
         public bool isDiffMonth { get; set; }
         public bool isHeader { get; set; }
         public DateTime curDate { get; set; }
+		public clsLunar.LunarInfo lunarDate { get; set; }
         public bool isHaveEvent { get; set; }
 
-        public GridItem(DateTime date, string dateAL, bool isdiff, bool ishead =false, bool isEvt = false)
+		public GridItem(DateTime date, clsLunar.LunarInfo lunar, bool isdiff, bool ishead =false, bool isEvt = false)
         {
             curDate = date;
+			lunarDate = lunar;
             Date = curDate.Day.ToString();
-            DateAL = dateAL;
+			if (lunarDate.dLunarDate.dDay == 1){
+				DateAL = lunarDate.dLunarDate.dDay.ToString() + "/" + lunarDate.dLunarDate.dMonth.ToString();
+			}
+			else { 
+				DateAL = lunarDate.dLunarDate.dDay.ToString();
+			}
             isDiffMonth = isdiff;
             isHeader = ishead;
             isHaveEvent = isEvt;
         }
 
-        public GridItem(string date, string dateAL, bool isdiff, bool ishead = false, bool isEvt = false)
+		public GridItem(string date, clsLunar.LunarInfo lunar, bool isdiff, bool ishead = false, bool isEvt = false)
         {
             Date = date;
-            DateAL = dateAL;
+			lunarDate = lunar;
+			DateAL = lunarDate.dLunarDate.dDay.ToString();
             isDiffMonth = isdiff;
             isHeader = ishead;
             isHaveEvent = isEvt;
         }
 
+		public GridItem(string date, bool isdiff, bool ishead = true, bool isEvt = false)
+		{
+			Date = date;
+			DateAL = lunarDate.dLunarDate.dDay.ToString();
+			isDiffMonth = isdiff;
+			isHeader = ishead;
+			isHaveEvent = isEvt;
+		}
     }
 }
