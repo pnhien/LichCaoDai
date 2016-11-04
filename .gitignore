@@ -1,8 +1,10 @@
 MyCalendarView/MyCalendarView.Droid/obj/
 MyCalendarView/MyCalendarView.Droid/bin/
+MyCalendarView/MyCalendarView.Droid/bin/Debug/
 MyCalendarView/MyCalendarView.Droid/Properties/
 MyCalendarView/MyCalendarView/obj/
 MyCalendarView/MyCalendarView/bin/
+MyCalendarView/MyCalendarView/obj/Debug/*
 MyCalendarView/MyCalendarView/Properties/
 MyCalendarView/Lunar/obj/
 MyCalendarView/Lunar/bin/
