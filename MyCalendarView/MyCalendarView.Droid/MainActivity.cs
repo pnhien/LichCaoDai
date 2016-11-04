@@ -51,8 +51,8 @@ namespace MyCalendarView.Droid
             gestureListener = new CustomGesture(this);
             gestureListener.OnSwipeDown += delegate (object sender, EventArgs args) { currentDateTime = currentDateTime.AddMonths(-1); SetCalendarView(view.FindViewById<View>(Resource.Layout.LichAm), currentDateTime); };
             gestureListener.OnSwipeLeft += delegate (object sender, EventArgs args) { currentDateTime = currentDateTime.AddDays(1); SetCalendarView(view.FindViewById<View>(Resource.Layout.LichAm), currentDateTime); };
-            gestureListener.OnSwipeRight += delegate (object sender, EventArgs args) { currentDateTime = currentDateTime.AddDays(1); SetCalendarView(view.FindViewById<View>(Resource.Layout.LichAm), currentDateTime); };
-            gestureListener.OnSwipeTop += delegate (object sender, EventArgs args) { currentDateTime = currentDateTime.AddMonths(-1); SetCalendarView(view.FindViewById<View>(Resource.Layout.LichAm), currentDateTime); };
+            gestureListener.OnSwipeRight += delegate (object sender, EventArgs args) { currentDateTime = currentDateTime.AddDays(-1); SetCalendarView(view.FindViewById<View>(Resource.Layout.LichAm), currentDateTime); };
+            gestureListener.OnSwipeTop += delegate (object sender, EventArgs args) { currentDateTime = currentDateTime.AddMonths(1); SetCalendarView(view.FindViewById<View>(Resource.Layout.LichAm), currentDateTime); };
             
             SetCalendarView(view.FindViewById<View>(Resource.Layout.LichAm), currentDateTime);
         }
