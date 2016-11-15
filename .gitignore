@@ -11,3 +11,9 @@ MyCalendarView/Lunar/bin/
 MyCalendarView/Lunar/Properties/
 packages/
 WindowsFormsApplication1/
+Lunar/bin/Debug/Lunar.dll.mdb
+Lunar/obj/Debug/Lunar.csproj.FileListAbsolute.txt
+Lunar/obj/Debug/Lunar.csprojResolveAssemblyReference.cache
+Lunar/bin/Debug/Lunar.dll
+Lunar/obj/Debug/Lunar.dll
+Lunar/obj/Debug/Lunar.pdb

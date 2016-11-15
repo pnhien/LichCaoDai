@@ -21,7 +21,11 @@ namespace WindowsFormsApplication1
         private void button1_Click(object sender, EventArgs e)
         {
             Lunar.clsLunar lunar = new clsLunar();
-            clsLunar.LunarInfo info = lunar.GetAllLunarInfo(dateTimePicker1.Value.Day, dateTimePicker1.Value.Month, dateTimePicker1.Value.Year, 7);
+            //clsLunar.LunarInfo info = lunar.GetAllLunarInfo(dateTimePicker1.Value.Day, dateTimePicker1.Value.Month, dateTimePicker1.Value.Year, 7);
+
+			Lunar.clsLunar.DoubleDateTime d1 = lunar.Lunar2Solar((double)dateTimePicker1.Value.Day, (double)dateTimePicker1.Value.Month, (double)dateTimePicker1.Value.Year, 1.0, 7.0);
+			Lunar.clsLunar.DoubleDateTime d2 = lunar.Lunar2Solar((double)dateTimePicker1.Value.Day, (double)dateTimePicker1.Value.Month+1, (double)dateTimePicker1.Value.Year, 1.0, 7.0);
+			/*Lunar.clsLunar.DoubleDateTime d3 = lunar.Lunar2Solar(info.dLunarDate.dDay, info.dLunarDate.dMonth, info.dLunarDate.dYear, 0.0, 7.0);
             label1.Text = info.ToLunarDate() + "--" + info.ToLunarTietKhi();
             label1.Text += "- " + info.sDayNameOfWeek + ", ngày " + "\r\n";
             label1.Text += "- Ngày âm lịch: " + info.ToLunarDate() + "\r\n";
@@ -40,6 +44,9 @@ namespace WindowsFormsApplication1
             label1.Text += "- Thuộc tiết khí: " + info.sTietKhi + "\r\n";
             label1.Text += "- Ngày đầu tiết khí Dương lịch: " + info.dStartSolarDateTietKhi.ToString() + "\r\n";
             label1.Text += "- Ngày đầu tiết khí Âm lịch: " + info.ToLunarTietKhi();
+*/
+
+			label1.Text = d1.ToString() + "-------" + d2.ToString();
         }
     }
 }

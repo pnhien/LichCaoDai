@@ -195,6 +195,20 @@ namespace Lunar
 			return convertToInt(dL / Pi * 6);
 		}
 
+		/*public double SunLongitude_HoNgocDuc(double jdn)
+		{
+			double T = (jdn - 2451545.0) / 36525; // Time in Julian centuries from 2000-01-01 12:00:00 GMT
+			double T2 = T * T;
+			double dr = Pi / 180; // degree to radian
+			double M = 357.52910 + 35999.05030 * T - 0.0001559 * T2 - 0.00000048 * T * T2; // mean anomaly, degree
+			double L0 = 280.46645 + 36000.76983 * T + 0.0003032 * T2; // mean longitude, degree
+			double DL = (1.914600 - 0.004817 * T - 0.000014 * T2) * Math.Sin(dr * M);
+			DL = DL + (0.019993 - 0.000101 * T) * Math.Sin(dr * 2 * M) + 0.000290 * Math.Sin(dr * 3 * M);
+			double L = L0 + DL; // true longitude, degree
+			L = L - 360 * (convertToInt(L / 360)); // Normalize to (0, 360)
+			return L;
+		}*/
+
 		private double SunLongitude2(double dJD)
 		{
 			double dT1, dT2, dDr;
